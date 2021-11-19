@@ -13,8 +13,6 @@ const RevenuePieChart = () => {
         return {...item, color:colors[index]}
     })
 
-    console.log(newData)
-
     return (
         <>
         <h4 className="chart-heading">Earnings Sources</h4>

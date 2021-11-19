@@ -5,7 +5,6 @@ import {projectsData} from './data'
 const AppContext = React.createContext()
 
 const AppProvider = ({children}) => {
-    console.log(expenses)
 
     let total = expenses.map((item)=>{
     return {...item, expenses:item['expenses']['direct'] + item['expenses']['social'] + item['expenses']['referal']}

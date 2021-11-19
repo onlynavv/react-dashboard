@@ -2,7 +2,6 @@ import React from 'react'
 import './Navbar.css'
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-// import { Link } from 'react-router-dom'
 import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';

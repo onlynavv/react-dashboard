@@ -6,7 +6,6 @@ import { useGlobalContext } from './context';
 const RevenueLineChart = ({title,grid}) => {
 
   const {expenses} = useGlobalContext()
-  console.log(expenses)
 
   let expenseData = expenses.map((item)=>{
     return {...item, expenses:item['expenses']['direct'] + item['expenses']['social'] + item['expenses']['referal']}
