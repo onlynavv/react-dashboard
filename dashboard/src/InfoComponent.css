@@ -1,0 +1,44 @@
+.info-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.info-wrapper {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px 1px rgb(203 203 203 / 43%);
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.info-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-icon {
+  display: flex;
+  align-items: center;
+}
+
+.card2 {
+  border-left: solid 3px #198754;
+}
+
+.card3 {
+  border-left: solid 3px #0dcaf0;
+}
+
+.card1 {
+  border-left: solid 3px #0d6efd;
+}
+
+.card4 {
+  border-left: solid 3px #ffc107;
+}

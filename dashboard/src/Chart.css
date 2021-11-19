@@ -1,0 +1,41 @@
+.chart-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 35px;
+  justify-content: center;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.chart {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 1px rgb(203 203 203 / 43%);
+  background-color: white;
+}
+
+.revenue-source {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.revenue-source-item {
+  display: flex;
+  align-items: center;
+}
+
+.revenue-source-item > svg,
+.revenue-source-item > span {
+  margin-right: 3px;
+  font-size: 16px;
+}
+
+.chart-heading {
+  background: #e8eeff;
+  color: #4e73df !important;
+  padding: 7px 10px;
+}

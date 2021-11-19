@@ -1,0 +1,9 @@
+.dashboard-content {
+  width: 100%;
+  flex: 0.8 1;
+}
+
+.content {
+  flex: 1;
+  background-color: #f7f7f7;
+}
